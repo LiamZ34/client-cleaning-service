@@ -13,13 +13,19 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="about-section">
+      <div className="about-section"> 
+      <div className="aboutUs">
+
         <h2>About Us</h2>
         <p>
           Welcome to our cleaning service! With years of experience, we provide top-notch
           cleaning services tailored to your needs. Our dedicated team is committed to
           delivering excellence and ensuring your space is spotless.
         </p>
+      </div>
+      <div className='empty'>
+
+      </div>
       </div>
 
       <div className="cta-section">
