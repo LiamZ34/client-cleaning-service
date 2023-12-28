@@ -29,12 +29,18 @@ const Home = () => {
       </div>
 
       <div className="cta-section">
-        <h2>Why Choose Us?</h2>
-        <ul>
-          <li>Professional and Reliable Cleaners</li>
-          <li>Customized Cleaning Plans</li>
-          <li>Quality Service at Affordable Prices</li>
-        </ul>
+        <div className='empty'>
+        </div>
+        <div className='aboutUs'>
+
+        <h2>Our Services</h2>
+        <p>
+          Elizabeth cleaning services offers a variety of services to fit your needs.
+        </p>
+        <a>
+          Learn More
+        </a>
+        </div>
       </div>
     </div>
   );
