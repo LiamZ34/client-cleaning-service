@@ -5,7 +5,7 @@
   
 /* Home.css */
 .hero-section {
-    background: url('/Users/williamhenriquez/cleaning-service-website/public/modern-3.webp') center/cover no-repeat;
+    background: url('/Users/williamhenriquez/cleaning-service-website/public/clean-home.jpeg') center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -62,7 +62,7 @@
   padding: 50px 20px;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  height: 300px;
+  height: 500px;
   display: flex;
   flex-direction: row;
   justify-content: center;

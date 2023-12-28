@@ -1,9 +1,6 @@
 // Home.js
 import React from 'react';
 import './Home.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { Button } from 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Link } from 'react-router-dom';
 
 const Home = () => {

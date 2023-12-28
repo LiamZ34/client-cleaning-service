@@ -6,7 +6,7 @@ import Home from './Home';
 // import Services from './Services';
 // import Contact from './Contact';
 // import Testimonials from './Testimonials';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/testimonials" element={<Testimonials />} /> */}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
