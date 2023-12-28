@@ -1,12 +1,16 @@
 // Home.js
 import React from 'react';
 import './Home.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { Button } from 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div className="home-container">
       <div className="hero-section">
-        <div class="hero-content">
+        <div className="hero-content">
         <h1>Your Trusted Cleaning Service</h1>
         <p>Transforming Spaces, One Cleaning at a Time</p>
         <button>Contact Us</button>
@@ -37,9 +41,11 @@ const Home = () => {
         <p>
           Elizabeth cleaning services offers a variety of services to fit your needs.
         </p>
-        <a>
-          Learn More
-        </a>
+
+        <Link to="/services">
+        <button className="btn btn-outline-light">Learn More</button>
+      </Link>
+
         </div>
       </div>
     </div>
