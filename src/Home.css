@@ -57,10 +57,10 @@
     background-color: #2980b9;
   }
   
+
   .about-section,
 .cta-section {
   padding: 50px 20px;
-  border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   height: 500px;
   display: flex;
@@ -80,7 +80,7 @@
 }
 
 .empty {
-  flex: 1;
+  width: 50%;
 }
 
 .about-section h2,
@@ -120,4 +120,33 @@
   color: white;
 }
 
+@media (min-width: 1200px) {
+.aboutUs {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+}
+
+@media (max-width: 1199px) {
+.aboutUs {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+@media (max-width: 935px) {
+.aboutUs {
+padding: 0;
+}
+}
+
+@media (max-width: 800px) {
+.empty {
+  display: none;
+}
+.about-section {
+  background: linear-gradient(90deg,#ffffff 50%,rgba(255,255,255,0.001) 180%),
+  url('/Users/williamhenriquez/cleaning-service-website/public/modern-3.webp') center/cover;
+}
+}
 
