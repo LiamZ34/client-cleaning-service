@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home-container">
       <div className="hero-section">
 
-<div className=" px-4 py-5 my-5 text-center rounded-3 border shadow-lg bg-opacity-50 bg-dark content">
+<div className=" px-4 py-5 my-5 text-center rounded-3 border shadow-lg bg-opacity-25 bg-dark content">
     
     <h1 className="display-5 fw-bold">Your trusted cleaning service</h1>
     <div className="col-lg-6 mx-auto">
