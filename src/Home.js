@@ -57,8 +57,8 @@ const Home = () => {
         </div>
         <div className='aboutUs'>
 
-        <h2>Our Services</h2>
-        <p>
+        <h2 className='display-4 lh-1 fw-bold'>Our Services</h2>
+        <p className='lead'>
           Elizabeth cleaning services offers a variety of services to fit your needs.
         </p>
 

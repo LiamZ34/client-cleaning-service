@@ -46,7 +46,7 @@ const Header = () => {
 
 <Navbar  variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/">Elizabeth</Navbar.Brand>
+        <Navbar.Brand href="/">Elizabeth's Cleaning Services</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
