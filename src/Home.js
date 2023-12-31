@@ -12,10 +12,10 @@ const Home = () => {
     
     <h1 className="display-5 fw-bold">Your trusted cleaning service</h1>
     <div className="col-lg-6 mx-auto">
-      <p className="lead mb-4">Transforming Spaces, One Cleaning at a Time</p>
+      <p className="lead mb-3">Transforming Spaces, One Cleaning at a Time</p>
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
        
-        <button type="button" className="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+        <button type="button" className="btn btn-outline-light btn-lg px-4">Request A Quote</button>
       </div>
     </div>
   </div>
@@ -30,6 +30,10 @@ const Home = () => {
           cleaning services tailored to your needs. Our dedicated team is committed to
           delivering excellence and ensuring your space is spotless.
         </p>
+
+        <Link to="/services">
+        <button className="btn btn-outline-dark">Learn More</button>
+      </Link>
       </div>
       <div className='empty'>
 

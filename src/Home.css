@@ -42,11 +42,11 @@
     margin-bottom: 40px;
   } */
   
-  .hero-section button {
+  /* .hero-section button {
     background-color: #fff;
-    color: #3498db;
+    color: #2c3e50;
     border: none;
-    padding: 15px 30px;
+    padding: 12px 30px;
     font-size: 1.5rem;
     cursor: pointer;
     border-radius: 4px;
@@ -55,7 +55,7 @@
   
   .hero-section button:hover {
     background-color: #2980b9;
-  }
+  } */
   
 
   .about-section,
@@ -113,7 +113,7 @@
 }
 
 .cta-section h2 {
-  color: #e74c3c;
+  color: white;
 }
 
 .cta-section p {
