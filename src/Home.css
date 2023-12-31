@@ -120,6 +120,23 @@
   color: white;
 }
 
+
+.row {
+  text-align: center;
+}
+
+.review-title {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+reviews-section {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
 @media (min-width: 1200px) {
 .aboutUs {
   padding-left: 50px;
