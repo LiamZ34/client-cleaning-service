@@ -128,6 +128,10 @@
   color: black;
 }
 
+.reviews-section {
+  background-color: #34495e;
+  color: white;
+}
 
 .row {
   text-align: center;
@@ -138,7 +142,7 @@
 
 .review-title {
   display: flex;
-  margin-top: 40px;
+  padding-top: 40px;
   margin-bottom: 40px;
   justify-content: center;
 }
