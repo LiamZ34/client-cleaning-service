@@ -58,7 +58,12 @@
   } */
   
 .why-how-section {
-  
+ background-color: #34495e;
+ color: #fff;
+}
+
+.how-section, .why-section {
+  margin-bottom: 40px;
 }
 
   .about-section,
