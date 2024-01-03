@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { Navbar, Nav, Container } from 'react-bootstrap'
+import { logo } from "./assets/images"
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -46,7 +47,7 @@ const Header = () => {
 
 <Navbar  variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/">Elizabeth's Cleaning Services</Navbar.Brand>
+        <Navbar.Brand href="/"><img src={logo} alt='logo'  /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
