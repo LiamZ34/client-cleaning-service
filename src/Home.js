@@ -2,7 +2,8 @@
 import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import { amy } from "./assets/images"
+import { amy, booking, request, relax } from "./assets/images"
+
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
       </div>
 
       <div className="px-4 pt-5 text-center why-how-section">
-    <h1 className="display-4 fw-bold why-section">Why choose us?</h1>
+    <h1 className="display-5 fw-bold why-section">Why choose us?</h1>
     <div className="col-lg-6 mx-auto">
       <p className="lead mb-4">At Elizabeth's Cleaning Services, we redefine standards with meticulous
        attention to detail, a passion for exceeding expectations, and a commitment to unparalleled customer
@@ -35,31 +36,32 @@ const Home = () => {
       </div>
     </div>
 
-    <h1 className="display-4 fw-bold how-section">How it works</h1>
+    <h1 className="display-5 fw-bold how-section">How it works</h1>
      
       <div className="container marketing">
     <div className="row">
       <div className="col-lg-4">
-        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+      <img src={request} alt='schedule icon' className='rounded-circle' width="160" height="160" />
         <h2></h2>
         <p className="lead mb-4">Request a personlized quote</p>
       </div>
-
       <div className="col-lg-4">
-        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+      <img src={booking} alt='schedule icon' className='rounded-circle' width="160" height="160" />
         <h2></h2>
         <p className="lead mb-4">Book your first cleaning</p>
       </div>
       <div className="col-lg-4">
         {/* <svg className="bd-placeholder-img rounded-circle " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> */}
-        <img src={amy} alt='logo' className='rounded-circle' width="140" height="140" />
+        <img src={relax} alt='logo' className='rounded-circle' width="160" height="160" />
         <h2></h2>
         <p className="lead mb-4">Sit back, relax and prepare to welcome our expert cleaners into your home</p>
       </div>
     </div>
+
+    <button type="button" className="btn btn-outline-light btn-lg px-4 my-5">Request A Quote</button>
     </div>
+
+   
 
 
   </div>
