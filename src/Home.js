@@ -2,7 +2,7 @@
 import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import { amy, booking, request, relax } from "./assets/images"
+import { amy, booking, request, relax, lisa, cheryl } from "./assets/images"
 
 
 const Home = () => {
@@ -111,17 +111,13 @@ const Home = () => {
       <div className="container marketing">
     <div className="row">
       <div className="col-lg-4">
-        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+      <img src={cheryl} alt='logo' className='rounded-circle' width="140" height="140" />
         <h2>Cheryl</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div>
-      
-      
+      </div>    
       <div className="col-lg-4">
-        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+      <img src={lisa} alt='logo' className='rounded-circle' width="140" height="140" />
         <h2>Lisa</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>

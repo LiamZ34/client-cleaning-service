@@ -132,6 +132,9 @@
 .row {
   text-align: center;
 }
+.row img {
+  outline-style: double;
+}
 
 .review-title {
   display: flex;

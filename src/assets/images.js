@@ -1,8 +1,9 @@
-import cheryl from "./clean-house.png";
-import amy from "./clean-home.jpeg"
+import amy from "./amy.jpeg"
 import relax from "./relax.png"
 import request from "./request.png"
 import booking from "./schedule.png"
+import lisa from "./Lisa.jpeg"
+import cheryl from "./cheryl.jpeg"
 
 
 export {
@@ -11,4 +12,5 @@ export {
     booking,
     request,
     relax,
+    lisa,
 };
