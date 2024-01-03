@@ -132,6 +132,10 @@
   justify-content: center;
 }
 
+.imglogo {
+  background-image: url('/Users/williamhenriquez/cleaning-service-website/public/modern-3.webp');
+}
+
 reviews-section {
   margin-top: 50px;
   padding-top: 50px;
