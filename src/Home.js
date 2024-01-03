@@ -99,7 +99,7 @@ const Home = () => {
         </p>
 
         <Link to="/services">
-        <button className="btn btn-outline-light">Learn More</button>
+        <button className="btn btn-outline-dark">Learn More</button>
       </Link>
 
         </div>

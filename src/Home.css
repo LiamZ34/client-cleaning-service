@@ -105,7 +105,7 @@
 }
 
 .cta-section {
-  background: linear-gradient(to left, rgb(0, 0, 0) 50%, rgba(255,255,255,0.001) 100%),
+  background: linear-gradient(to left, #ffffff 50%, rgba(255,255,255,0.001) 100%),
   url('/Users/williamhenriquez/cleaning-service-website/public/modern-3.webp') center/cover;
 }
 
@@ -121,11 +121,11 @@
 }
 
 .cta-section h2 {
-  color: white;
+  color: black;
 }
 
 .cta-section p {
-  color: white;
+  color: black;
 }
 
 
