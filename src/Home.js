@@ -22,6 +22,51 @@ const Home = () => {
   </div>
       </div>
 
+      <div className="px-4 pt-5 my-5 text-center why-how-section">
+    <h1 className="display-4 fw-bold">Why choose us?</h1>
+    <div className="col-lg-6 mx-auto">
+      <p className="lead mb-4">At Elizabeth's Cleaning Services, we redefine standards with meticulous
+       attention to detail, a passion for exceeding expectations, and a commitment to unparalleled customer
+        satisfaction. Beyond mere cleaning, our professional team crafts environments tailored to your preferences.
+         With eco-friendly practices, customizable services, and a promise of reliability, we transform spaces into
+          havens of cleanliness. </p>
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+
+      </div>
+    </div>
+
+    <h1 className="display-4 fw-bold">How it works</h1>
+     
+      <div className="container marketing">
+    <div className="row">
+      <div className="col-lg-4">
+        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2></h2>
+        <p>Request a personlized quote</p>
+      </div>
+      
+      
+      <div className="col-lg-4">
+        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2></h2>
+        <p>Book your first cleaning</p>
+      </div>
+      <div className="col-lg-4">
+        {/* <svg className="bd-placeholder-img rounded-circle " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> */}
+        <img src={amy} alt='logo' className='rounded-circle' width="140" height="140" />
+        <h2></h2>
+        <p>Sit back, relax and prepare to welconme our expert cleaners into your home</p>
+      </div>
+    </div>
+    </div>
+
+
+  </div>
+
+
+
       <div className="about-section"> 
       <div className="aboutUs">
 
