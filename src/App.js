@@ -5,7 +5,7 @@ import Header from './Header';
 import Home from './Home';
 // import Services from './Services';
 // import Contact from './Contact';
-// import Testimonials from './Testimonials';
+import About from './About';
 import Footer from './Footer';
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         {/* <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/testimonials" element={<Testimonials />} /> */}
+        <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
     </Router>
