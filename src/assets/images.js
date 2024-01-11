@@ -5,6 +5,7 @@ import booking from "./schedule.png"
 import lisa from "./Lisa.jpeg"
 import cheryl from "./cheryl.jpeg"
 import logo from "./EliCleaningLogo.png"
+import serv from "./blank-wall.jpeg"
 
 
 export {
@@ -15,4 +16,5 @@ export {
     relax,
     lisa,
     logo,
+    serv,
 };
